@@ -1,0 +1,79 @@
+.mainPage {
+  margin: 0 auto;  
+  max-width: 400px;
+  height: 600px;
+  background-color: rgb(176, 204, 212);  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 30px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.3);
+}
+
+.title {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#fff;
+  font-size: 40px;
+  margin: 50px auto;
+}
+
+.input,
+.button {
+  background-color: rgb(176, 204, 212);    
+}
+
+.mainPage input {
+  margin-top: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  padding: 10px;  
+  border: 1px solid rgb(176, 204, 212);  
+  height: 30px;
+  width: 85%;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.3);
+}
+
+.mainPage input:focus {
+  outline: none;
+}
+
+.button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgb(128, 108, 136);
+  color: white;
+  font-size: 40px;
+  margin-top: 30px;
+  float: right;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  text-align: right;    
+  border: 1px solid rgb(128, 108, 136);
+  border-radius: 50px;
+  vertical-align: middle;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.3);
+}
+
+a {
+  width: 120px;
+}
+
+.button div {
+  margin-top: 18px;
+  margin-right: 13px;
+}
+
+.button:hover {
+  background-color: rgb(121, 93, 133);
+}
+
+.button:active {
+  background-color: rgb(113, 78, 128);
+}
+
+
+

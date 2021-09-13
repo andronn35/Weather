@@ -1,0 +1,40 @@
+.dayWeather {
+  display:flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-top: 10px;
+  
+}
+
+.bigTemp {    
+  font-size: 60px;
+  text-align: right;
+  width: 45%;
+  height: 120px;  
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.details {
+  width: 50%;
+  height: 100%;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.cityName {
+  font-size: 25px;
+  float: right;
+  margin-right: 10px;
+}
+
+@media(max-width: 450px) {
+  .details {
+    font-size: 12px;
+  }
+  .cityName {
+    font-size: 20px;
+  }
+  
+}

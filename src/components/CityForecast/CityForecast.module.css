@@ -1,0 +1,43 @@
+.cityForecast {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  max-width: 400px;
+  height: 600px;
+  background: linear-gradient(to left, rgb(207, 240, 253), rgb(129, 152, 173));
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.3);
+  
+}
+
+.DayWeatherContainer {
+  width: 90%;
+  height: 150px;
+  background: linear-gradient(to left, rgb(147, 217, 245), rgb(175, 230, 252));
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.3);
+}
+
+.back {
+  font-size: 20px;
+  height: 8%;
+  width: 90%;
+  background-color: rgb(63, 133, 63);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.4);
+}
+
+.back a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
